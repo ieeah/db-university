@@ -1,0 +1,27 @@
+* {
+	font-family: sans-serif;
+
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	background-color: white;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+tr:nth-child(odd):not(thead tr) {
+	background-color: lightgray;
+}
+
+tr:not(thead tr) {
+	border-bottom: 2px solid gray;
+}
+
+td {
+	height: 60px;
+	line-height: 60px;
+}
